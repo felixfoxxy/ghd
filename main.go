@@ -1,5 +1,9 @@
 package main
 
+//Code by FelixFoxxy
+//Website: https://felixfoxxy.dev/
+//Repo: https://github.com/felixfoxxy/ghd
+
 import (
 	"encoding/hex"
 	"fmt"
