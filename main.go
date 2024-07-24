@@ -58,7 +58,7 @@ func newRow(bytes []byte, i int, lineSz int, spacer int) {
 	fmt.Print(" - ")
 	for b := 0; b < lineSz; b++ {
 		if b+(i*lineSz) < len(bytes) {
-			pnt := hex.EncodeToString([]byte{bytes[b+(i*lineSz)]})
+			pnt := strings.ToUpper(hex.EncodeToString([]byte{bytes[b+(i*lineSz)]}))
 			fmt.Print(pnt + " ")
 		}
 	}
